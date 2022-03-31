@@ -2,4 +2,6 @@
     import "virtual:windi.css"
 </script>
 
-<slot/>
+<div class="mx-16">
+    <slot/>
+</div>
