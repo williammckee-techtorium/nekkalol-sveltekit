@@ -4,29 +4,34 @@
 
     import Hoverable from "../components/hoverable.svelte"
  </script>
+
+<div class="container mx-auto mx-0 mt-0 bg-gray-900" >
+    <h1 class="font-medium leading-tight text-3xl mt-0 mb-5 text-white drop-shadow-2xl">⚙️nekkalol</h1>
+    </div>
 <div style="color: white; font-size: 2em" 
-        class="fixed top-0 left-0 h-screen w-16 flex flex-col bg-gray-900 shadow-lg">
+        class="mt-9 fixed top-0 left-0 h-screen w-18 flex flex-col bg-gray-900 shadow-lg">
 
         <Hoverable let:hovering={active}>
             <div class:active>
                 {#if active}
-                    <a href="/about"><Fa class="mx-4" icon={faFlag} /></a>
+                    <a href="/about"><Fa class="mx-4  mt-10" icon={faFlag} /></a>
                     <span class="sidebar-tooltip group-hover:scale-100">
                         About
                     </span>
                 {:else}
-                    <Fa class="mx-4" icon={faFlag} />
+                    <Fa class="mx-4  mt-10" icon={faFlag} />
                 {/if}
             </div>
         </Hoverable>
     </div>
 
 
+    
 
  <style>
     .sidebar-tooltip {
     @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md
-    text-white bg-gray-900 
+    text-white bg-gray-900 mt-10 mx-6
     text-xs font-bold 
     transition-all duration-100 scale-0 origin-left;
   }
