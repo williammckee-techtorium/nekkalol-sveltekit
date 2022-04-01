@@ -1,24 +1,26 @@
  <script>
-
+     import IconCircle from "../assets/icon-circle.svg"
+     import IconRound from "../assets/icon-round.svg"
 
     import Hoverable from "../components/hoverable.svelte"
  </script>
 
 <div class="container mx-auto mx-0 mt-0 bg-gray-900" >
-    <h1 class="font-medium leading-tight text-3xl mt-0 mb-5 text-white drop-shadow-2xl">⚙️nekkalol</h1>
+    <h1 class="font-medium leading-tight mt-0 mb-5 text-white drop-shadow-2xl">⚙️nekkalol</h1>
     </div>
 <div style="color: white; font-size: 2em" 
-        class="mt-9 fixed top-0 left-0 h-screen w-18 flex flex-col bg-gray-900 shadow-lg">
+        class="mt-5 fixed top-0 left-0 h-screen w-18 flex flex-col bg-gray-900 shadow-lg">
 
         <Hoverable let:hovering={active}>
             <div class:active>
                 {#if active}
-                    <a href="/about"><h1 class="font-medium leading-tight text-3xl mx-4  mt-10 text-blue drop-shadow-2xl">⚙️</h1></a>
+                    <img src="{IconRound}" class="font-medium leading-tight text-3xl mx-5  mt-2 text-white drop-shadow-2xl" alt="..." />
+
                     <span class="sidebar-tooltip group-hover:scale-100">
                         About
                     </span>
                 {:else}
-                <h1 class="font-medium leading-tight text-3xl mx-4  mt-10 text-white drop-shadow-2xl">⚙️</h1>
+                <img src="{IconCircle}" class="font-medium leading-tight text-3xl mx-5  mt-2 text-white drop-shadow-2xl" alt="..." />
                 {/if}
             </div>
         </Hoverable>
