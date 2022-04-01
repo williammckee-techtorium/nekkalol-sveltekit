@@ -1,6 +1,5 @@
  <script>
-     import Fa from 'svelte-fa'
-     import { faFlag } from '@fortawesome/free-solid-svg-icons'
+
 
     import Hoverable from "../components/hoverable.svelte"
  </script>
@@ -14,12 +13,12 @@
         <Hoverable let:hovering={active}>
             <div class:active>
                 {#if active}
-                    <a href="/about"><Fa class="mx-4  mt-10" icon={faFlag} /></a>
+                    <a href="/about"><h1 class="font-medium leading-tight text-3xl mx-4  mt-10 text-blue drop-shadow-2xl">⚙️</h1></a>
                     <span class="sidebar-tooltip group-hover:scale-100">
                         About
                     </span>
                 {:else}
-                    <Fa class="mx-4  mt-10" icon={faFlag} />
+                <h1 class="font-medium leading-tight text-3xl mx-4  mt-10 text-white drop-shadow-2xl">⚙️</h1>
                 {/if}
             </div>
         </Hoverable>
