@@ -11,13 +11,13 @@
 
         <li>
             
-            <a href="#" class="mr-4 text-white hover:underline md:mr-6">Privacy Policy</a>
+            <a href="/privacy" class="mr-4 text-white hover:underline md:mr-6">Privacy Policy</a>
         </li>
         <li>
-            <a href="#" class="mr-4 text-white hover:underline md:mr-6">Licensing</a>
+            <a href="/licence" class="mr-4 text-white hover:underline md:mr-6">Licensing</a>
         </li>
         <li>
-            <a href="#" class="text-white hover:underline">Contact</a>
+            <a href="/contact" class="text-white hover:underline">Contact</a>
         </li>
     </ul>
     
