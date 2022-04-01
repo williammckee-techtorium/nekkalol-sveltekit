@@ -4,24 +4,24 @@
 
     import Hoverable from "../components/hoverable.svelte"
  </script>
-
 <div style="color: white; font-size: 2em" 
         class="fixed top-0 left-0 h-screen w-16 flex flex-col bg-gray-900 shadow-lg">
 
         <Hoverable let:hovering={active}>
             <div class:active>
                 {#if active}
-                    <Fa class="mx-4" icon={faFlag} />
+                    <a href="/about"><Fa class="mx-4" icon={faFlag} /></a>
                     <span class="sidebar-tooltip group-hover:scale-100">
-                        test123
+                        About
                     </span>
                 {:else}
                     <Fa class="mx-4" icon={faFlag} />
                 {/if}
             </div>
         </Hoverable>
+    </div>
 
-</div>
+
 
  <style>
     .sidebar-tooltip {

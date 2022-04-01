@@ -4,7 +4,7 @@
     import Footer from "../components/footer.svelte"
 </script>
 <Sidebar/>
-<div class="mx-16">
+<div class="mx-20 mt-5">
     <slot/>
 </div>
 <Footer/>
