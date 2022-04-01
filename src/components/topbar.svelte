@@ -1,11 +1,7 @@
-<script>
-    import Fa from 'svelte-fa'
-    import { faCoins } from '@fortawesome/free-solid-svg-icons'
-  </script>
 <nav class="flex items-center justify-between flex-wrap bg-gray-900 shadow-lg p-2">
     <span style="font-size: 24px; color: white;">
         nekkalol
-    <h1 class="font-medium  text-2xl mt-0 mb-2 text-white"><Fa class="mx-4" icon={faCoins} /></h1>
+    <h1 class="font-medium  text-2xl mt-0 mb-2 text-white">Coins</h1>
     </span>
     nekkalol
     <div class="block lg:hidden">

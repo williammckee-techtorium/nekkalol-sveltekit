@@ -1,9 +1,3 @@
-<script>
-    import Fa from 'svelte-fa'
-    import { faVideo, faCopyright, fa2,
-            fa0 } from '@fortawesome/free-solid-svg-icons'
-    
-</script>
 <footer class="w-full h-5 ml-18 fixed bottom-0 p-4 bg-gray-800 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">  
     <span class="text-sm text-white sm:text-center dark:text-gray-400"><a href="https://nekkalol.com" class="hover:underline">©️ 2️0️2️2️ nekkalol</a>. All Rights Reserved.
     </span>
@@ -20,9 +14,5 @@
             <a href="/contact" class="text-white hover:underline">Contact</a>
         </li>
     </ul>
-    
-<div style="color: white; font-size: 2em" >
-    <Fa class="mx-4" icon={faVideo} />
-</div>
 
 </footer>
