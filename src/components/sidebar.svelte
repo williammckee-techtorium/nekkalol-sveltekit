@@ -14,13 +14,13 @@
         <Hoverable let:hovering={active}>
             <div class:active>
                 {#if active}
-                    <img src="{IconRound}" class="font-medium leading-tight text-3xl mx-5  mt-2 text-white drop-shadow-2xl" alt="..." />
+                    <img src="{IconRound}" class="font-medium leading-tight text-3xl mx-0  mt-2 text-white drop-shadow-2xl" alt="..." />
 
                     <span class="sidebar-tooltip group-hover:scale-100">
                         About
                     </span>
                 {:else}
-                <img src="{IconCircle}" class="font-medium leading-tight text-3xl mx-5  mt-2 text-white drop-shadow-2xl" alt="..." />
+                <img src="{IconCircle}" class="font-medium leading-tight text-3xl mx-0  mt-2 text-white drop-shadow-2xl" alt="..." />
                 {/if}
             </div>
         </Hoverable>
